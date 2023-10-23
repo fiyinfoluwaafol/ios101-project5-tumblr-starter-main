@@ -61,7 +61,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         // Fetch new data or perform any necessary updates
         fetchPosts()
         // After updating the data, reload the table view
-        postTableView.reloadData()
+        self.postTableView.reloadData()
 
         // End the refreshing process
         refreshControl.endRefreshing()
